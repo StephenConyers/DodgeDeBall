@@ -5,6 +5,6 @@ public partial class Testing : Node
 {
     public override void _Ready() 
     {
-        GD.Print("Hello World");
+        GD.Print("Updated");
     }
 }
