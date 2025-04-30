@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://lefuebvcgnf3"]
 
-[ext_resource type="Script" uid="uid://db2b5efqugrru" path="res://Scripts/PlayerAnimation.cs" id="1_kpjcp"]
+[ext_resource type="Script" uid="uid://coadhotldl7cq" path="res://Scripts/Player.cs" id="1_kpjcp"]
 [ext_resource type="Texture2D" uid="uid://b4bu8xgjfa3nl" path="res://Sprites/Astronaut_Test_Sheet.png" id="1_xhfnw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kpjcp"]
@@ -68,7 +68,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3tkgg"]
-height = 24.0
+radius = 38.0
+height = 120.0
 
 [node name="Player" type="Area2D"]
 script = ExtResource("1_kpjcp")
