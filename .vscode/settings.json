@@ -1,3 +1,3 @@
 {
-    "dotnet.unitTests.runSettingsPath": "./Tests/.ExampleTest"
+    "dotnet.unitTests.runSettingsPath": "./Tests/.runsettings"
 }
