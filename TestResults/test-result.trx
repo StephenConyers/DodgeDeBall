@@ -1,51 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="75c2402b-5359-449a-8cdc-64f0b67aa5ec" name="steph@ZESTOP 2025-05-05 18:43:47" runUser="ZESTOP\steph" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-05-05T18:43:47.5138421+01:00" queuing="2025-05-05T18:43:47.5138422+01:00" start="2025-05-05T18:43:45.7325700+01:00" finish="2025-05-05T18:43:47.8989917+01:00" />
-  <TestSettings name="default" id="0fa7bf3a-4b37-41f2-807d-7c07b4b1bd7a">
-    <Deployment runDeploymentRoot="steph_ZESTOP_2025-05-05_18_43_47" />
+<TestRun id="c899cc6e-7173-4f5f-9801-0843277c5027" name="steph@ZESTOP 2025-05-12 00:08:52" runUser="ZESTOP\steph" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-12T00:08:52.4428026+01:00" queuing="2025-05-12T00:08:52.4428027+01:00" start="2025-05-12T00:08:48.4490943+01:00" finish="2025-05-12T00:08:52.5239233+01:00" />
+  <TestSettings name="default" id="d765753b-7885-44df-91bb-2e274a9a3366">
+    <Deployment runDeploymentRoot="steph_ZESTOP_2025-05-12_00_08_52" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="459471c1-863a-4616-9be8-3f95f28999b7" testId="77b337c3-a299-3c30-224e-a3d9fd14a865" testName="Success" computerName="ZESTOP" duration="00:00:00.0110000" startTime="2025-05-05T18:43:47.4558590+01:00" endTime="2025-05-05T18:43:47.4568220+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="459471c1-863a-4616-9be8-3f95f28999b7" />
-    <UnitTestResult executionId="8a6bf3a0-1bad-4c61-b38b-f164028dfeef" testId="5748f6fa-7a78-65e0-b5cb-83bd86bb0447" testName="failed" computerName="ZESTOP" duration="00:00:00.0170000" startTime="2025-05-05T18:43:47.4752885+01:00" endTime="2025-05-05T18:43:47.4752933+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a6bf3a0-1bad-4c61-b38b-f164028dfeef">
-      <Output>
-        <ErrorInfo>
-          <Message>Expecting: 'True' but is 'False'</Message>
-          <StackTrace>   at ExampleTests.ExampleTest.failed() in C:\Zestech Ltd\Godot\DodgeDeBall\Tests\ExampleTest.cs:line 18&#xD;
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
+    <UnitTestResult executionId="4d349a63-3a49-43f3-b382-ca481e654bf4" testId="497d45de-4df6-c216-cf04-07ae0d0467c9" testName="VelocityLeft" computerName="ZESTOP" duration="00:00:00.0020000" startTime="2025-05-12T00:08:52.0256894+01:00" endTime="2025-05-12T00:08:52.0256934+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d349a63-3a49-43f3-b382-ca481e654bf4" />
+    <UnitTestResult executionId="a622942a-32aa-4c99-be54-98428d49e7c8" testId="5e3d6efa-2f46-5286-18c9-c17127d56135" testName="VelocityDown" computerName="ZESTOP" duration="00:00:00.0060000" startTime="2025-05-12T00:08:52.0232560+01:00" endTime="2025-05-12T00:08:52.0232609+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a622942a-32aa-4c99-be54-98428d49e7c8" />
+    <UnitTestResult executionId="7fae815e-e096-411e-976c-5f815f207f02" testId="423a4e7e-20fe-31f5-fd05-1de97afc5f02" testName="VelocityRight" computerName="ZESTOP" duration="00:00:00.0080000" startTime="2025-05-12T00:08:52.0347742+01:00" endTime="2025-05-12T00:08:52.0348922+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fae815e-e096-411e-976c-5f815f207f02" />
+    <UnitTestResult executionId="080a3bbe-f3d7-49d4-9362-2a6ba1d28daa" testId="b41a0b74-68d1-a469-cc32-4d5561a0bfc8" testName="VelocityUp" computerName="ZESTOP" duration="00:00:00.0210000" startTime="2025-05-12T00:08:52.0173826+01:00" endTime="2025-05-12T00:08:52.0182955+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="080a3bbe-f3d7-49d4-9362-2a6ba1d28daa" />
   </Results>
   <TestDefinitions>
-    <UnitTest name="Success" storage="c:\zestech ltd\godot\dodgedeball\.godot\mono\temp\bin\debug\dodgedeball.dll" id="77b337c3-a299-3c30-224e-a3d9fd14a865">
-      <Execution id="459471c1-863a-4616-9be8-3f95f28999b7" />
-      <TestMethod codeBase="C:\Zestech Ltd\Godot\DodgeDeBall\.godot\mono\temp\bin\Debug\DodgeDeBall.dll" adapterTypeName="executor://gdunit4.testadapter/" className="ExampleTests.ExampleTest" name="Success" />
+    <UnitTest name="VelocityDown" storage="c:\zestech ltd\godot\dodgedeball\.godot\mono\temp\bin\debug\dodgedeball.dll" id="5e3d6efa-2f46-5286-18c9-c17127d56135">
+      <Execution id="a622942a-32aa-4c99-be54-98428d49e7c8" />
+      <TestMethod codeBase="C:\Zestech Ltd\Godot\DodgeDeBall\.godot\mono\temp\bin\Debug\DodgeDeBall.dll" adapterTypeName="executor://gdunit4.testadapter/" className="PlayerTests.PlayerVelocity" name="VelocityDown" />
     </UnitTest>
-    <UnitTest name="failed" storage="c:\zestech ltd\godot\dodgedeball\.godot\mono\temp\bin\debug\dodgedeball.dll" id="5748f6fa-7a78-65e0-b5cb-83bd86bb0447">
-      <Execution id="8a6bf3a0-1bad-4c61-b38b-f164028dfeef" />
-      <TestMethod codeBase="C:\Zestech Ltd\Godot\DodgeDeBall\.godot\mono\temp\bin\Debug\DodgeDeBall.dll" adapterTypeName="executor://gdunit4.testadapter/" className="ExampleTests.ExampleTest" name="failed" />
+    <UnitTest name="VelocityLeft" storage="c:\zestech ltd\godot\dodgedeball\.godot\mono\temp\bin\debug\dodgedeball.dll" id="497d45de-4df6-c216-cf04-07ae0d0467c9">
+      <Execution id="4d349a63-3a49-43f3-b382-ca481e654bf4" />
+      <TestMethod codeBase="C:\Zestech Ltd\Godot\DodgeDeBall\.godot\mono\temp\bin\Debug\DodgeDeBall.dll" adapterTypeName="executor://gdunit4.testadapter/" className="PlayerTests.PlayerVelocity" name="VelocityLeft" />
+    </UnitTest>
+    <UnitTest name="VelocityUp" storage="c:\zestech ltd\godot\dodgedeball\.godot\mono\temp\bin\debug\dodgedeball.dll" id="b41a0b74-68d1-a469-cc32-4d5561a0bfc8">
+      <Execution id="080a3bbe-f3d7-49d4-9362-2a6ba1d28daa" />
+      <TestMethod codeBase="C:\Zestech Ltd\Godot\DodgeDeBall\.godot\mono\temp\bin\Debug\DodgeDeBall.dll" adapterTypeName="executor://gdunit4.testadapter/" className="PlayerTests.PlayerVelocity" name="VelocityUp" />
+    </UnitTest>
+    <UnitTest name="VelocityRight" storage="c:\zestech ltd\godot\dodgedeball\.godot\mono\temp\bin\debug\dodgedeball.dll" id="423a4e7e-20fe-31f5-fd05-1de97afc5f02">
+      <Execution id="7fae815e-e096-411e-976c-5f815f207f02" />
+      <TestMethod codeBase="C:\Zestech Ltd\Godot\DodgeDeBall\.godot\mono\temp\bin\Debug\DodgeDeBall.dll" adapterTypeName="executor://gdunit4.testadapter/" className="PlayerTests.PlayerVelocity" name="VelocityRight" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="77b337c3-a299-3c30-224e-a3d9fd14a865" executionId="459471c1-863a-4616-9be8-3f95f28999b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="5748f6fa-7a78-65e0-b5cb-83bd86bb0447" executionId="8a6bf3a0-1bad-4c61-b38b-f164028dfeef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="497d45de-4df6-c216-cf04-07ae0d0467c9" executionId="4d349a63-3a49-43f3-b382-ca481e654bf4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e3d6efa-2f46-5286-18c9-c17127d56135" executionId="a622942a-32aa-4c99-be54-98428d49e7c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="423a4e7e-20fe-31f5-fd05-1de97afc5f02" executionId="7fae815e-e096-411e-976c-5f815f207f02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b41a0b74-68d1-a469-cc32-4d5561a0bfc8" executionId="080a3bbe-f3d7-49d4-9362-2a6ba1d28daa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
-  <ResultSummary outcome="Failed">
-    <Counters total="2" executed="2" passed="1" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>CheckGdUnit4ApiVersion gdUnit4Api, Version=4.3.1.0&#xD;
-Start executing tests, 2 TestCases total.&#xD;
+Start executing tests, 10 TestCases total.&#xD;
 Current directory set to: C:\Zestech Ltd\Godot\DodgeDeBall&#xD;
-Run with args  --path . res://gdunit4_testadapter/TestAdapterRunner.tscn --testadapter --configfile="C:\Zestech Ltd\Godot\DodgeDeBall\GdUnitRunner_4ce382b0-4152-4744-b16c-5442f177fa51.cfg" &#xD;
+Run with args  --path . res://gdunit4_testadapter/TestAdapterRunner.tscn --testadapter --configfile="C:\Zestech Ltd\Godot\DodgeDeBall\GdUnitRunner_a4d63676-9c54-49c7-9c79-3cce68fe8662.cfg" &#xD;
 TestEventReportServer:: Wait for connecting GdUnit4 test report client.&#xD;
 TestEventReportServer:: TestAdapterReporter: Successfully connected to GdUnit4 test report server!&#xD;
 TestEventReportServer:: TestAdapterReporter: Disconnecting from GdUnit4 test report server.&#xD;
-Godot ends with exit code: 100&#xD;
-Run TestRunner ends with 100&#xD;
+Godot ends with exit code: 0&#xD;
+Run TestRunner ends with 0&#xD;
 </StdOut>
     </Output>
   </ResultSummary>

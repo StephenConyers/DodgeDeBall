@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4bu8xgjfa3nl"
-path="res://.godot/imported/Astronaut_Test_Sheet.png-8017303a92aa0cfcabcb61ff709595ca.ctex"
+uid="uid://fqqh053jgtne"
+path="res://.godot/imported/Ball_Spin_Sheet.png-b4c8abf46413a91f2b23db4ef51d70e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Astronaut_Test_Sheet.png"
-dest_files=["res://.godot/imported/Astronaut_Test_Sheet.png-8017303a92aa0cfcabcb61ff709595ca.ctex"]
+source_file="res://Sprites/Ball_Spin_Sheet.png"
+dest_files=["res://.godot/imported/Ball_Spin_Sheet.png-b4c8abf46413a91f2b23db4ef51d70e0.ctex"]
 
 [params]
 

@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Diagnostics;
 
 public partial class Player : Area2D
 {
@@ -11,7 +12,9 @@ public partial class Player : Area2D
     {
         screenSize = GetViewportRect().Size;
 
-        Position = new Vector2(screenSize.X / 2, screenSize.Y /2);
+        Position = new Vector2(screenSize.X / 3, screenSize.Y / 2);
+
+        Debug.WriteLine("Player Ready");
     }
 
     public override void _Process(double delta)
@@ -20,37 +23,69 @@ public partial class Player : Area2D
 
         if (Input.IsActionPressed("move_right"))
         {
-            vel.X += 1;
+            vel = MoveRight(vel);
         }
 
         if (Input.IsActionPressed("move_left"))
         {
-            vel.X -= 1;
+            vel = MoveLeft(vel);
         }
 
-        if (Input.IsActionPressed("jump"))
+        if (Input.IsActionPressed("move_up"))
         {
-            vel.Y -= 1;
+            vel = MoveUp(vel);
+        }
+
+        if (Input.IsActionPressed("move_down"))
+        {
+            vel = MoveDown(vel);
         }
 
         var animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+        animatedSprite2D.Play();
 
         if (vel.Length() > 0)
         {
+            animatedSprite2D.Animation = "Walk";
             vel = vel.Normalized() * speed;
-            animatedSprite2D.Play();
         }
         else
         {
-            animatedSprite2D.Stop();
+            animatedSprite2D.Animation = "Idle";
         }
 
+        MovePlayer(vel, delta);
+    }
+
+    public Vector2 MoveUp(Vector2 vel) 
+    {
+        vel.Y -= 1;
+        return vel;
+    }
+
+    public Vector2 MoveDown(Vector2 vel) 
+    {
+        vel.Y += 1;
+        return vel;
+    }
+
+    public Vector2 MoveLeft(Vector2 vel) 
+    {
+        vel.X -= 1;
+        return vel;
+    }
+    public Vector2 MoveRight(Vector2 vel) 
+    {
+        vel.X += 1;
+        return vel;
+    }
+
+    public void MovePlayer(Vector2 vel, double delta) 
+    {
         Position += vel * (float)delta;
         Position = new Vector2 (
             x: Mathf.Clamp(Position.X, 0, screenSize.X),
             y: Mathf.Clamp(Position.Y, 0, screenSize.Y)
         );
     }
-
 }
-
